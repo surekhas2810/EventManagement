@@ -1,0 +1,21 @@
+.marquee-container {
+    overflow: hidden;
+    width: 100%; /* Adjust to your desired width */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    padding: 10px 0;
+  }
+  
+  .marquee {
+    display: flex;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .marquee img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px; /* Spacing between images */
+    border-radius: 8px; /* Optional: Add rounded corners */
+  }
+  
+ 
+  

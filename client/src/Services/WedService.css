@@ -1,0 +1,135 @@
+.cards h1{
+    color:rgb(14, 14, 14);
+    text-align: center;
+    /* font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif; */
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3vw;
+    letter-spacing: 0.02em;
+    line-height: 0.4em;
+   
+ }
+ .cards h3{
+    text-align: center;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif; 
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #e53e3e;
+    letter-spacing: 5px;
+    line-height: 1.0em;
+ }
+
+
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    padding: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+.service-box {
+    background-color: rgb(21, 20, 20);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    justify-content: center;
+    height:400px;
+    width:300px;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(251, 88, 88, 0.901);
+  
+}
+
+.service-box img {
+    width: 120%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.service-box h2 {
+    font-size: 1.5rem;
+    color: #f4eeee;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.service-box p {
+   
+    font-size: 1rem;
+    padding: 0 1rem 1rem;
+}
+.main-content {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .main-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width:500px;
+    height:500px;
+    margin-right: 50px;
+  }
+  
+  .services-section {
+    text-align: left;
+    max-width: 400px;
+   
+  }
+  
+  .services-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+  }
+  
+  .services-section ul {
+    list-style: none;
+    padding: 30px;
+   
+  }
+  
+  .services-section ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .services-section ul li::before {
+    content: '✔';
+    color: #ff4081;
+    margin-right: 10px;
+  }
+.heading h2{
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: uppercase;
+    
+}

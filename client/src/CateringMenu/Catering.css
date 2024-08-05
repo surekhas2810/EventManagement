@@ -1,0 +1,149 @@
+.cat-container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px; 
+  background-color: white;
+  
+
+}
+.description-box {
+  padding: 50px;
+  
+}
+
+.full-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left:100px;
+  
+  background-color: white;
+}
+
+.catering-title {
+  text-align: center;
+  margin-bottom: 40px;
+  /* font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif; */
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3vw;
+  letter-spacing: 0.02em;
+  line-height: 0.3em;
+
+}
+.catering h3{
+  text-align: center;
+  font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif; 
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#e53e3e !important;
+    letter-spacing: 7px;
+    line-height: 1.0em;
+}
+
+.cat-container2 {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(238, 235, 235, 0.895);
+  margin-bottom: 40px;
+  border: 1px solid #6159594c;
+  padding: 10px;
+  background-color: rgb(11, 11, 11);
+  border-radius:10px;
+ 
+}
+
+.image-slider {
+  position: relative;
+  max-width: 300px;
+  flex: 1;
+  margin-left:50px;
+}
+
+.project-image {
+  width: 100%;
+  height: 150%;
+  display: block;
+  
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(238, 232, 232, 0.914);
+  color: rgb(13, 12, 12);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 10;
+}
+
+.slider-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slider-button.prev {
+  left: 0;
+}
+
+.slider-button.next {
+  right: 0;
+}
+
+.description-box {
+  flex: 2;
+  
+}
+
+.topic {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:#e53e3e;
+ 
+}
+.location{
+  color:white;
+  display:flex;
+  align-items: center;
+  font-size:20px;
+}
+
+.para {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color:white;
+  font-family: sans-serif;
+}
+
+.hover-button {
+  background-color: #e53e3e ;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+  
+  align-items: center;
+}
+
+.hover-button:hover {
+  background-color: black;
+  color:white;
+  box-shadow: 2px 2px ;
+}
+.rating{
+  color:goldenrod;
+  display: flex;
+  gap: 4px; 
+  
+}
+.customer-name{
+  color:grey;
+  padding:10px;
+  font-size: small;
+  
+  
+  
+}

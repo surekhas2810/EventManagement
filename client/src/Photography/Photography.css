@@ -1,0 +1,145 @@
+
+.photography h1{ 
+  color:rgb(14, 14, 14);
+  text-align: center;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 3vw;
+  letter-spacing: 0.02em;
+  line-height: 0.4em;
+  font-family: sans-serif;
+
+}
+.photography h2{
+  text-align: center;
+  font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e53e3e;
+    letter-spacing: 10px;
+    line-height: 1.0em;
+}
+.photography-page {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+  }
+  .filter-box {
+    width: 20%;
+    margin-right: 20px;
+    
+   
+  }
+  .filter-box h2 {
+    margin-bottom: 10px;
+    color:black;
+    font-family:sans-serif;
+    font-size: x-large;
+  }
+  
+  .filter-group h3 {
+    margin-bottom:17px;
+    color:black;
+    padding:15px;
+   text-align: center;
+    font-family:sans-serif;
+    
+  }
+  
+  .filter-box label {
+    display: block;
+    margin: 5px 0;
+    color:black;
+  }
+  
+  .filter-box input[type="checkbox"] {
+    margin-right: 10px;
+    width:20%;
+    
+   
+  } 
+  /* .services-grid {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+  } */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+  }
+  
+  .service-box-photo {
+    display: flex;
+    background-color: #0d0d0d;
+    padding:60px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(238, 235, 235, 0.895);
+  }
+  
+   .service-phtghy-image {
+    width: auto; 
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover; 
+    border-radius: 5px;
+    margin-right: 20px;
+    
+    
+  } 
+  
+  .service-photo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:WHITE;
+
+  }
+  
+  .service-photo-text h3 {
+    margin-bottom: 3px;
+    font-size: 25px;
+    line-height: 1em;
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+   
+  }
+  
+  .service-photo-text p {
+    margin-bottom: 5px;
+    color:rgb(244, 236, 221);
+    font-family: sans-serif;
+    
+    
+  }
+  .wed-photo{
+    width:100px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color:#e53e3e;
+  } 
+  @media screen and (min-width: 1024px) {
+    .services-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .service-box-photo {
+      flex-direction: row;
+    }
+  
+    .service-phtghy-image {
+      width: auto;
+      height: 100%;
+      max-height: 300px;
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  
+    .wed-photo {
+      width: 200px;
+      height: 50px;
+      margin-top: 10px;
+    }
+  }

@@ -1,0 +1,53 @@
+.head{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+    padding: 2rem 9%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head .navbar{
+    font-size:1.8rem;
+    justify-content:space-between;
+    font-weight: 500;
+}
+.head .navbar a {
+    padding-left:1.5rem;
+}
+
+/* services */
+.service.row{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+
+}
+.service-col{
+    height:22rem;
+    background:url("https://png.pngtree.com/background/20210709/original/pngtree-wedding-background-marry-wedding-wedding-reception-picture-image_924758.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    flex:1 1 25rem;
+    padding:1.2rem;
+    margin:1.5rem;
+}
+.service-col i{
+    padding:2.2rem;
+    border:none;
+    background:aliceblue;
+    border-radius:5rem;
+    font-size:2.5rem;
+}
+.service-col h2{
+padding:1rem 0;
+font-size: 2rem;;
+}
+.service-col p{
+    font-size:1.2rem;
+    color:rgb(210, 49, 49);
+}
